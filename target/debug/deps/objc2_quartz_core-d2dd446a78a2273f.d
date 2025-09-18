@@ -1,0 +1,10 @@
+/Users/lee/my-iced-project/target/debug/deps/objc2_quartz_core-d2dd446a78a2273f.d: /Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/lib.rs /Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/generated/mod.rs /Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/generated/CALayer.rs /Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/generated/CATransaction.rs
+
+/Users/lee/my-iced-project/target/debug/deps/libobjc2_quartz_core-d2dd446a78a2273f.rlib: /Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/lib.rs /Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/generated/mod.rs /Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/generated/CALayer.rs /Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/generated/CATransaction.rs
+
+/Users/lee/my-iced-project/target/debug/deps/libobjc2_quartz_core-d2dd446a78a2273f.rmeta: /Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/lib.rs /Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/generated/mod.rs /Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/generated/CALayer.rs /Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/generated/CATransaction.rs
+
+/Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/lib.rs:
+/Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/generated/mod.rs:
+/Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/generated/CALayer.rs:
+/Users/lee/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/objc2-quartz-core-0.2.2/src/generated/CATransaction.rs:
