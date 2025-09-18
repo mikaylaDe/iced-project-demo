@@ -44,7 +44,7 @@ impl Plant {
             1 => " 🌱",
             2 => " 🌿",
             3 => " 🪴",
-            _ => " 🌳",
+            _ => " 🌳", // "_" accounts for values 4-255
         };
 
         let water = match self.water {
