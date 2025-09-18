@@ -3,15 +3,17 @@ use iced::{Element, Result};
 
 #[derive(Default)]
 struct Plant {
-    stage: u8,//holds values 0-255 (needs to account for the 
+    growth: u8,//holds values 0-255 (needs to account for the 
                //rest of the values after 2 with _
     water: u8, //water capacity left
+    reset: u8,
 }
 
 #[derive(Debug, Clone, Copy)]
 enum Message {
     Watered,
     Refill,
+    Reset,
     
 }
 
@@ -20,8 +22,8 @@ impl Plant {
         match message {
             Message::Watered => {
                 if self.water > 0 {
-                    if self.stage < 4 {
-                        self.stage += 1;
+                    if self.growth < 4 {
+                        self.growth += 1;
                     }
                     self.water -= 1;
                 }
@@ -29,11 +31,15 @@ impl Plant {
             Message::Refill => {
                 self.water = 3; //refills water to max
             }
+            Message::Reset => {
+                self.growth = 0;
+                self.water = 0;
+            }
         }
     }
 
     fn view(&self) -> Element<Message> {
-        let plant = match self.stage {
+        let plant = match self.growth {
             0 => " 🫘",
             1 => " 🌱",
             2 => " 🌿",
@@ -52,7 +58,7 @@ impl Plant {
             column![
                 button("Water").on_press(Message::Watered),
                 button("Refill").on_press(Message::Refill),
-                //button("Reset plant"),on_press(Message:Reset),
+                button("Reset").on_press(Message::Reset),
             ],
             text(plant).size(80),
             text(water).size(40),
