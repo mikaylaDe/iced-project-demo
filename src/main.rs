@@ -33,7 +33,6 @@ impl Plant {
             }
             Message::Reset => {
                 self.growth = 0;
-                self.water = 0;
             }
         }
     }
@@ -48,7 +47,7 @@ impl Plant {
         };
 
         let water = match self.water {
-            0 => " 🚰",     
+            0 => "  🚰",     
             1 => " 💧",
             2 => " 💧💧",
             _ => " 💧💧💧", 
@@ -56,9 +55,11 @@ impl Plant {
 
         row![
             column![
-                button("Water").on_press(Message::Watered),
-                button("Refill").on_press(Message::Refill),
-                button("Reset").on_press(Message::Reset),
+                button("Refill water").on_press(Message::Refill),
+                text(" ").size(20),
+                button("Water plant").on_press(Message::Watered),
+                text(" ").size(20),
+                button("Reset growth").on_press(Message::Reset),
             ],
             text(plant).size(80),
             text(water).size(40),
