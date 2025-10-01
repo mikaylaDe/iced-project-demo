@@ -2,7 +2,6 @@
 
 A small Rust project to explore the [Iced](https://github.com/iced-rs/iced) GUI library.
 This project simulates a plant that the user can water, refill, and reset, with each action changing the state of the plant and updating the UI. 
-🫘 -> 🌱 -> 🌿 -> 🪴 -> 🌳
 
 ## How it works
 
@@ -29,6 +28,7 @@ cargo run
 
 * Click on **Refill** to add max water capacity 
 * Click on **Water** to grow the plant, using up one water each time
+    🫘 -> 🌱 -> 🌿 -> 🪴 -> 🌳
 * Click on **Reset** to reset the plant growth 
 
 
